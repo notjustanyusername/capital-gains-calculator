@@ -948,7 +948,7 @@ class CapitalGainsCalculator:
                     )
                     chargeable_gain += bed_and_breakfast_gain
                     LOGGER.debug(
-                        "BED & BREAKFAST, quantity %d, gain %s, disposal price %s, "
+                        "BED & BREAKFAST, quantity %s, gain %s, disposal price %s, "
                         "acquisition price %s%s",
                         available_quantity,
                         bed_and_breakfast_gain,
